@@ -1,17 +1,17 @@
-# Create React App example
+# supabase-quickstart-react
 
-## How to use
+## **Working example**
 
-Download the example [or clone the repo](https://github.com/mui/material-ui):
+### How to use
 
-<!-- #default-branch-switch -->
+1. Download the example [or clone the repo](https://github.com/killshot13/supabase-quickstart-react):
 
 ```sh
-curl https://codeload.github.com/mui/material-ui/tar.gz/master | tar -xz --strip=2 material-ui-master/examples/create-react-app
-cd create-react-app
+curl https://codeload.github.com/killshot13/supabase-quickstart-react/tar.gz/main | tar -xz
+cd supabase-quickstart-react-main
 ```
 
-Install it and run:
+2. Install it and run:
 
 ```sh
 npm install
@@ -20,25 +20,24 @@ npm start
 
 or:
 
-<!-- #default-branch-switch -->
+[![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/killshot13/supabase-quickstart-react)
 
-[![Edit on CodeSandbox](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/mui/material-ui/tree/master/examples/create-react-app)
+3. Sign up for a [free Supabase account](https://app.supabase.com)
 
-<!-- #default-branch-switch -->
+4. Use the [quickstart guide](https://supabase.com/docs/guides/with-react) to learn how to create your own Supabase instance complete with an API key.
 
-[![Edit on StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/mui/material-ui/tree/master/examples/create-react-app)
+5. Replace the generic placeholder text with your API URL and anon key as environment variables in the .env file.
 
-## The idea behind the example
+6. Enter an email address of your choosing into the running application and experience the magic!
 
-<!-- #default-branch-switch -->
+## The idea behind the example (per the Supabase documentation)
 
-This example demonstrates how you can use [Create React App](https://github.com/facebookincubator/create-react-app).
-It includes `@mui/material` and its peer dependencies, including `emotion`, the default style engine in MUI v5.
-If you prefer, you can [use styled-components instead](https://mui.com/material-ui/guides/interoperability/#styled-components).
-
-## What's next?
-
-<!-- #default-branch-switch -->
-
-You now have a working example project.
-You can head back to the documentation, continuing browsing it from the [templates](https://mui.com/material-ui/getting-started/templates/) section.
+> This example provides the steps to build a basic user management app. It includes:
+>
+>- Supabase Database: a Postgres database for storing your user data.
+>- Supabase Auth: users can sign in with magic links (no passwords, only email)
+>- Supabase Storage: users can upload a photo.
+>- Row Level Security: data is protected so that individuals can only access their own data.
+>- Instant APIs: APIs will be automatically generated when you create your database tables.
+>
+> By the end of this guide you'll have an app which allows users to login and update some basic profile details."
